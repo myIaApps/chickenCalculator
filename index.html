@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -12,20 +13,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <header>
             <h1>🍗 Costo Pollo</h1>
             <p>Calculadora de carne limpia</p>
         </header>
-        
+
         <main>
             <div class="card">
                 <label for="precioPollo">Precio Pollo Entero ($/kg)</label>
                 <input type="number" id="precioPollo" placeholder="0.00" inputmode="decimal">
-                
+
                 <button id="btnCalcular">Calcular Costo Real</button>
-                
+
                 <div id="resultadoContainer" class="hidden">
                     <p class="label-resultado">Costo Estimado (Limpio):</p>
                     <p id="resultadoValue" class="value-resultado">$0.00</p>
@@ -36,8 +38,10 @@
 
         <footer>
             <p>&copy; 2025 CalculadoraPollo PWA</p>
+            <p class="version">v1.0.1 - Build: <code>eaa8777</code></p>
         </footer>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
