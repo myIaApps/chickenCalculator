@@ -140,6 +140,21 @@ footer {
     margin-top: 30px;
     font-size: 0.8rem;
     color: var(--text-dim);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.version {
+    font-size: 0.7rem;
+    opacity: 0.6;
+    font-family: monospace;
+}
+
+.version code {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2px 4px;
+    border-radius: 4px;
 }
 
 @keyframes slideUp {
