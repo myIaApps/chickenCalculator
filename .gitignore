@@ -1,0 +1,14 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Gemini/Agent metadata
+.gemini/
+.agent/
+.antigravity/
+
+# Development files
+*.log
+node_modules/
+dist/
+build/

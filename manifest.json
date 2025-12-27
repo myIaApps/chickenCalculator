@@ -1,0 +1,21 @@
+{
+  "name": "Costo Pollo - Calculadora",
+  "short_name": "Costo Pollo",
+  "description": "Calculadora de costos de carne de pollo limpia.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#ffd700",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3143/3143641.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3143/3143641.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
