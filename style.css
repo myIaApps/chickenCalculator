@@ -37,6 +37,7 @@ header h1 {
     margin-bottom: 5px;
     background: linear-gradient(to bottom, #fff, var(--primary));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
